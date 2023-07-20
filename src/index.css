@@ -91,8 +91,11 @@ button:focus-visible {
 
 img:hover {
   opacity: 1 !important;
-  scale: 1.07;
+  scale: 1.05;
   transition: all 0.3s;
+  border-radius: 5px;
+  border: 1px solid rgb(68, 68, 46);
+  box-shadow: 2px 2px 1px 1px #e50914be;
 }
 /* for responsive react-player */
 .player-wrapper {
@@ -108,11 +111,6 @@ img:hover {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.full {
-  width: 100vw;
-  height: 100vh;
 }
 
 /* for search input icon */

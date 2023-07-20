@@ -47,3 +47,6 @@ This project is licensed under the MIT License.
 
 Acknowledgements
 This project was inspired by the Netflix streaming platform and is meant for educational purposes. It uses the TMDB API to fetch movie data.
+
+#Project-Image
+![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)

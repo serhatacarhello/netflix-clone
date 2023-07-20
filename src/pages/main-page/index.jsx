@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Hero from "../../components/hero";
 import { getGenres, getMovies, setLoading } from "../../redux/actions/actions";
-import MovieList from "../../components/movie-list/MovieList";
+import MovieList from "./components/movie-list";
+import Hero from "./components/hero";
 
 const MainPage = () => {
   const dispatch = useDispatch();
