@@ -19,7 +19,7 @@ const WatchMoviePage = () => {
     setLoading(false);
   }, [movie_id]);
 
-  console.log(videos);
+  // console.log(videos);
 
   const youtubeVideosKeys = videos
     .filter((item) => item.site == "YouTube")
