@@ -1,3 +1,7 @@
+#Project-Image
+![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)
+
+
 #Netflix Clone Project
 This project is a Netflix clone built using React and Redux. It aims to replicate the core functionalities and design of the Netflix streaming platform. Users can browse popular movies, search for specific movies, view movie details, and watch selected movies.
 
@@ -48,5 +52,4 @@ This project is licensed under the MIT License.
 Acknowledgements
 This project was inspired by the Netflix streaming platform and is meant for educational purposes. It uses the TMDB API to fetch movie data.
 
-#Project-Image
-![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)
+
