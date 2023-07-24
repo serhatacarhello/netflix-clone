@@ -2,7 +2,7 @@
 ![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)
 
 #Published to:
-[surge.sh](https://netflix-clone-project-with-redux.surge.sh))
+[surge.sh](https://sudden-support.surge.sh))
 ````
 #Netflix Clone Project
 ````
