@@ -8,9 +8,10 @@ const MainPage = () => {
   const dispatch = useDispatch();
   // get data from store and assign it  to state
   const state = useSelector((store) => store.movieReducer);
+  const popularMovies = state.popularMovies;
 
   useEffect(() => {
-    //set loading
+    //set loading true
     dispatch(setLoading(true));
 
     //get popular movies data
@@ -18,14 +19,13 @@ const MainPage = () => {
 
     //get categories data
     dispatch(getGenres());
-  }, [dispatch]);
 
-  const popularMovies = useSelector(
-    (state) => state.movieReducer.popularMovies
-  );
+    //set loading false
+    dispatch(setLoading(false));
+  }, []);
 
   return (
-    <div className="bg-secondary">
+    <div className="d-flex flex-column justify-content-center align-items-center">
       <Hero popularMovies={popularMovies} />
       {state.genres.map((genre) => (
         <MovieList key={genre.id} genre={genre} />

@@ -7,13 +7,13 @@ const SearchResults = () => {
   const searchData = useSelector((state) => state.movieReducer.queryMovies);
 
   return (
-    <div className="container">
-      <h3>Search Results</h3>
+    <div className="full bg-danger h-100">
+      <h3 className="mt-5">Search Results</h3>
       {searchData.length == 0 && (
         <p> There is no result. Please try another search.</p>
       )}
       {searchData.length > 0 && (
-        <div className="d-flex align-items-center justify-content-center flex-wrap p-3  ">
+        <div className="d-flex align-items-center justify-content-center flex-wrap p-3 h-100 ">
           {searchData.map((movie, i) => (
             <Link key={i} to={`/${movie.id}`}>
               <div

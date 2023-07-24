@@ -46,7 +46,7 @@ const Header = () => {
     <>
       <header
         style={{ maxHeight: 100 }}
-        className="d-flex  align-items-center justify-content-between  shadow pe-2"
+        className="w-100 d-flex  align-items-center justify-content-between  shadow pe-2"
       >
         <div className="logo ">
           <Link to={"/"}>
@@ -59,7 +59,10 @@ const Header = () => {
             )}
           </Link>
         </div>
-        <div className="search_input_container d-flex align-items-center justify-content-center">
+        <div
+          className="search_input_container d-flex align-items-center justify-content-center"
+          style={{ marginRight: "200px" }}
+        >
           {inputValue.length == 0 && (
             <div className="search-icon">
               <BiSearch className="fs-3 text-dark" />

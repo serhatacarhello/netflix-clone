@@ -12,10 +12,20 @@ const Hero = ({ popularMovies }) => {
   // console.log("🚀 ~ file: index.jsx:13 ~ Hero ~ heroMovie:", heroMovie);
 
   return (
-    <div className="d-flex align-items-center justify-content-center bg-black bg-opacity-75 mt-2 ">
+    <div className="w-100">
       {!state.isLoading && heroMovie && (
         <div className="row">
-          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center p-4">
+          {/* movie image */}
+          <div className="col-lg-6 col-md-12 ">
+            <img
+              className="img-fluid"
+              src={`${baseImageURL}${heroMovie.backdrop_path}`}
+              alt="movie image"
+              loading="lazy"
+            />
+          </div>
+          {/* movie details */}
+          <div className="col-lg-6 col-md-12 p-3 d-flex align-items-center justify-content-center flex-column">
             <h1 className="text-primary p-1 text-capitalize ">
               {heroMovie.title}
             </h1>
@@ -31,20 +41,6 @@ const Hero = ({ popularMovies }) => {
               </Link>
               <button className="btn btn-info">Add List</button>
             </div>
-          </div>
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
-            {state.isLoading ? (
-              <LoadingPage />
-            ) : (
-              <div className="d-flex justify-content-center align-items-center">
-                <img
-                  className="img-fluid"
-                  src={`${baseImageURL}${heroMovie.backdrop_path}`}
-                  alt="movie image"
-                  loading="lazy"
-                />
-              </div>
-            )}
           </div>
         </div>
       )}
