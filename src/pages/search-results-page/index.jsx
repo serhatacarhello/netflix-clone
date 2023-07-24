@@ -7,7 +7,7 @@ const SearchResults = () => {
   const searchData = useSelector((state) => state.movieReducer.queryMovies);
 
   return (
-    <div className="full bg-danger h-100">
+    <div className="full h-100">
       <h3 className="mt-5">Search Results</h3>
       {searchData.length == 0 && (
         <p> There is no result. Please try another search.</p>

@@ -10,6 +10,7 @@ const MovieDetailPage = () => {
   const [loading, setLoading] = useState(true);
 
   const getVideoDetails = () => {
+    setLoading(true);
     axios
       .get(`https://api.themoviedb.org/3/movie/${movieId}`, options)
       .then(function (response) {

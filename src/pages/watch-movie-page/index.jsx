@@ -28,7 +28,7 @@ const WatchMoviePage = () => {
   const newVideosKey = youtubeVideosKeys.slice(0, 1);
 
   return (
-    <div className="p-1 m-auto">
+    <div className="p-1 m-auto full">
       {loading == true && (
         <>
           <h1>Watch Movie Page</h1> <LoadingPage />
