@@ -2,7 +2,7 @@
 ![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)
 
 #Published to:
-[surge sh](movie-netflix-advertisement.surge.sh)
+[surge.sh](https://movie-netflix-advertisement.surge.sh/))
 ````
 #Netflix Clone Project
 ````
