@@ -9,7 +9,7 @@ This project is a Netflix clone built using React and Redux. It aims to replicat
 ````
 #Published to:
 [surge.sh](https://sudden-support.surge.sh)
-[Netlify Status](https://api.netlify.com/api/v1/badges/e58455f2-1268-44f0-9eac-e6615e6de374/deploy-status)
+[Netlify Status](https://64bfce78e9e2016c99cb6d96--effervescent-dieffenbachia-45b85f.netlify.app/)
 ````
 
 #Installation
