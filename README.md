@@ -1,14 +1,19 @@
 #Project-Image
 ![netflix-clone-project-gif](src/assets/netflix-clone-project.gif)
 
-```
+````
 #Netflix Clone Project
 ```
-
 This project is a Netflix clone built using React and Redux. It aims to replicate the core functionalities and design of the Netflix streaming platform. Users can browse popular movies, search for specific movies, view movie details, and watch selected movies.
 
 ```
+#Published to:
+[surge.sh](https://sudden-support.surge.sh)
+
+````
+
 #Installation
+
 ```
 
 To install and run the Netflix clone project, follow these steps:
@@ -20,7 +25,9 @@ Start the development server: npm start
 Open your browser and visit: http://localhost:3000
 
 ```
+
 #Features
+
 ```
 
 Browse popular movies: Users can view a collection of popular movies on the main page.
@@ -29,7 +36,9 @@ Movie details: Users can click on a movie to view detailed information such as t
 Watch movies: Users can watch selected movies by clicking on the "Watch" button, which takes them to the movie player page.
 
 ```
+
 #Project Structure
+
 ```
 
 The project follows a modular structure with the following components:
@@ -40,7 +49,9 @@ redux/: Manages the application state using Redux. It includes reducers, actions
 constants/: Stores constants and configuration options used in the project.
 
 ```
+
 #Dependencies
+
 ```
 
 The Netflix clone project relies on the following dependencies:
@@ -54,7 +65,9 @@ Splidejs/splide
 For a complete list of dependencies and their versions, please refer to the package.json file.
 
 ```
+
 #Contributing
+
 ```
 
 Contributions to the Netflix clone project are welcome. To contribute, please follow these guidelines:
@@ -69,3 +82,4 @@ This project is licensed under the MIT License.
 
 Acknowledgements
 This project was inspired by the Netflix streaming platform and is meant for educational purposes. It uses the TMDB API to fetch movie data.
+```
