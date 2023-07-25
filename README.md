@@ -6,7 +6,7 @@
 ```
 This project is a Netflix clone built using React and Redux. It aims to replicate the core functionalities and design of the Netflix streaming platform. Users can browse popular movies, search for specific movies, view movie details, and watch selected movies.
 
-```
+````
 #Published to:
 [surge.sh](https://sudden-support.surge.sh)
 [Netlify Status](https://api.netlify.com/api/v1/badges/e58455f2-1268-44f0-9eac-e6615e6de374/deploy-status)
