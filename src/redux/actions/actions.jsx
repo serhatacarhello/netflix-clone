@@ -1,6 +1,6 @@
 import axios from "axios";
-import ActionTypes from "../../constants/actionTypes";
 import options, { baseURL, optionsForGenres } from "../../constants/constant";
+import ActionTypes from "../../constants/ActionTypes";
 
 export const setLoading = (payload) => ({
   type: ActionTypes.SET_LOADING,

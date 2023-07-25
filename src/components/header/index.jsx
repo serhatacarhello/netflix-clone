@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { BiSearch } from "react-icons/bi";
 import { FiBell } from "react-icons/fi";
-import ActionTypes from "../../constants/actionTypes";
+import ActionTypes from "../../constants/ActionTypes";
 
 const Header = () => {
   // const [icon, setIcon] = useState({});
