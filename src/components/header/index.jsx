@@ -3,9 +3,9 @@ import options, { baseImageURL } from "../../constants/constant";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import ActionTypes from "../../constants/actionTypes";
 import { BiSearch } from "react-icons/bi";
 import { FiBell } from "react-icons/fi";
+import ActionTypes from "../../constants/actionTypes";
 
 const Header = () => {
   // const [icon, setIcon] = useState({});
@@ -42,6 +42,7 @@ const Header = () => {
     // console.log("🚀 ~ file: index.jsx:39 ~ Header ~ state:", state);
     return state.movieReducer;
   });
+
   return (
     <>
       <header
